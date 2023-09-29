@@ -24,6 +24,7 @@ header {
     margin: auto;
     position: relative;
 }
+
 /* navigation links css */
 nav ul li {
     display: inline;
@@ -81,14 +82,43 @@ nav ul li {
     margin: 140px 115px 0px -230px;
 }
 
-#Horiseon {
-    
+
+/* These are the aside titles Projects and Contact */
+#Projects {
+    margin-top: 200px;
 }
 
+#Contact {
+    margin-top: 600px;
+}
+
+/* This is the Horiseon Project Image */
+#Horiseon {
+    display: block;
+    margin-left: 110px;
+    margin-top: 100px;
+    position: relative;
+}
+
+/* This is the "coming soon" images for the project */
 #projectpics {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-right: 100%;
+
+}
+
+/* This is to make sure my github link is black */
+a:link, i {
+    color: black;
+}
+
+/* This is my poor attempt to make my github icon in a good position that corralates to my Contact title in the aside portion */
+.contact-container {
+    margin-top: 90px;
+    margin-right: 500px;
+    
 }
 
 
